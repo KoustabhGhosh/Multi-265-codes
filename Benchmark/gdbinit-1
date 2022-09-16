@@ -1,0 +1,127 @@
+b Xoodoo_Initialize
+b Xoodoo_AddBytes
+b Xoodoo_OverwriteBytes
+b Xoodoo_OverwriteWithZeroes
+b Xoodoo_ExtractBytes
+b Xoodoo_ExtractAndAddBytes
+b Xoodoo_Permute_6rounds
+b Xoodoo_Permute_12rounds
+b Xoodyak_AbsorbKeyedFullBlocks
+b Xoodyak_AbsorbHashFullBlocks
+b Xoodyak_SqueezeKeyedFullBlocks 
+b Xoodyak_SqueezeHashFullBlocks
+b Xoodyak_EncryptFullBlocks
+b Xoodyak_DecryptFullBlocks
+run
+set $v0.d.s[0]=0
+set $v0.d.s[1]=0
+set $v1.d.s[0]=0
+set $v1.d.s[1]=0
+set $v2.d.s[0]=0
+set $v2.d.s[1]=0
+set $v3.d.s[1]=0
+set $v3.d.s[0]=0
+set $v4.d.s[0]=0
+set $v4.d.s[1]=0
+set $v5.d.s[1]=0
+set $v5.d.s[0]=0
+set $v6.d.s[0]=0
+set $v6.d.s[1]=0
+set $v7.d.s[1]=0
+set $v7.d.s[0]=0
+set $v8.d.s[1]=0
+set $v8.d.s[0]=0
+set $v9.d.s[0]=0
+set $v9.d.s[1]=0
+set $v10.d.s[1]=0
+set $v10.d.s[0]=0
+set $v11.d.s[0]=0
+set $v12.d.s[0]=0
+set $v11.d.s[1]=0
+set $v12.d.s[1]=0
+set $v13.d.s[1]=0
+set $v13.d.s[0]=0
+set $v14.d.s[0]=0
+set $v14.d.s[1]=0
+set $v15.d.s[1]=0
+set $v16.d.s[1]=0
+set $v15.d.s[0]=0
+set $v16.d.s[0]=0
+set $v17.d.s[0]=0
+set $v17.d.s[1]=0
+set $v18.d.s[0]=0
+set $v18.d.s[1]=0
+set $v19.d.s[0]=0
+set $v19.d.s[1]=0
+set $v20.d.s[1]=0
+set $v20.d.s[0]=0
+set $v21.d.s[0]=0
+set $v21.d.s[1]=0
+set $v22.d.s[0]=0
+set $v22.d.s[1]=0
+set $v23.d.s[1]=0
+set $v23.d.s[0]=0
+set $v24.d.s[0]=0
+set $v24.d.s[1]=0
+set $v25.d.s[0]=0
+set $v25.d.s[1]=0
+set $v26.d.s[0]=0
+set $v26.d.s[1]=0
+set $v27.d.s[1]=0
+set $v27.d.s[0]=0
+set $v28.d.s[0]=0
+set $v28.d.s[1]=0
+set $v29.d.s[1]=0
+set $v29.d.s[0]=0
+set $v30.d.s[0]=0
+set $v30.d.s[1]=0
+set $v31.d.s[1]=0
+set $v31.d.s[0]=0
+c
+c
+c
+display/i $pc
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si 27
+si 27 
+si 27 
+si 27 
+si 27
+si 27
+si 27
+si 27
+si 27
+si 27
+si 27
+si 23
+c
+c
+
