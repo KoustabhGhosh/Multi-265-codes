@@ -1,0 +1,5 @@
+gcc -g *.c -c
+gcc -mfpu=neon -c Nh-mine.s -o Nh-mine.o
+gcc -g -o output *.o
+gdb output
+./output
